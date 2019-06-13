@@ -15,6 +15,7 @@
 		CA6B1D5C22B241CB0029BC9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6B1D5A22B241CB0029BC9E /* LaunchScreen.storyboard */; };
 		CA6B1D6722B241CB0029BC9E /* CoreDataToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6B1D6622B241CB0029BC9E /* CoreDataToDoTests.swift */; };
 		CA6B1D7222B241CB0029BC9E /* CoreDataToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6B1D7122B241CB0029BC9E /* CoreDataToDoUITests.swift */; };
+		CA6B1D8022B243260029BC9E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6B1D7F22B243260029BC9E /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CA6B1D6D22B241CB0029BC9E /* CoreDataToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6B1D7122B241CB0029BC9E /* CoreDataToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataToDoUITests.swift; sourceTree = "<group>"; };
 		CA6B1D7322B241CB0029BC9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6B1D7F22B243260029BC9E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				CA6B1D4E22B241C90029BC9E /* AppDelegate.swift */,
+				CA6B1D7F22B243260029BC9E /* Constants.swift */,
 				CA6B1D5022B241C90029BC9E /* ViewController.swift */,
 				CA6B1D5222B241C90029BC9E /* Main.storyboard */,
 				CA6B1D5822B241CB0029BC9E /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 				CA6B1D5122B241C90029BC9E /* ViewController.swift in Sources */,
 				CA6B1D4F22B241C90029BC9E /* AppDelegate.swift in Sources */,
 				CA6B1D5722B241C90029BC9E /* CoreDataToDo.xcdatamodeld in Sources */,
+				CA6B1D8022B243260029BC9E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
