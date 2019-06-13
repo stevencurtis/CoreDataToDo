@@ -35,7 +35,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Pse-k4-tYv"/>
+                    <navigationItem key="navigationItem" id="Pse-k4-tYv">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="qo6-jq-gxN">
+                            <connections>
+                                <action selector="addItem:" destination="BYZ-38-t0r" id="VDI-Lg-cCD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="7nH-uQ-O9p" id="I30-hF-fKL"/>
                     </connections>
