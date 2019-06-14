@@ -10,7 +10,7 @@ import UIKit
 import CoreData
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var tableView: UITableView!
     
     var tasks = [NSManagedObject]()
@@ -53,7 +53,6 @@ class ViewController: UIViewController {
     func save(task: String) {
         let taskObject = NSManagedObject(entity: entity, insertInto: objectContext)
         taskObject.setValue(task, forKeyPath: Constants.entityNameAttribute)
-        
         do {
             try objectContext.save()
             tasks.append(taskObject)
@@ -70,7 +69,6 @@ extension ViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         cell.textLabel?.text = tasks[indexPath.row].value(forKeyPath: Constants.entityNameAttribute) as? String
         return cell
