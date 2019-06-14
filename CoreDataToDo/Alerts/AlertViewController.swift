@@ -11,12 +11,10 @@ import UIKit
 class AlertViewController: UIViewController {
 
     var maintext : NSAttributedString?
-    
-    // for popups added to the main window
-//    var presentedView: UIViewController?
-    
     var delegate : AlertsDelegate?
    
+    @IBOutlet weak var titleLabel: UILabel!
+    
     @IBOutlet weak var alertView: UIView!
     @IBOutlet weak var buttonStackView: UIStackView!
     @IBOutlet weak var buttonView: UIView!
@@ -44,6 +42,9 @@ class AlertViewController: UIViewController {
     }
     
     func setupView() {
+        
+        titleLabel.text = title
+        
         self.view.backgroundColor = Constants.alerts.grayColor
         self.alertView.backgroundColor = Constants.alerts.bgColor
         self.alertView.layer.cornerRadius = 15

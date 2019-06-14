@@ -22,6 +22,8 @@ class ViewController: UIViewController {
     
     @IBAction func addItem(_ sender: UIBarButtonItem) {
         alert = UIStoryboard(name: Constants.alertStoryBoard, bundle: nil).instantiateViewController(withIdentifier: Constants.alerts.mainAlert) as? AlertViewController
+        alert?.title = "Enter your task"
+
         alert?.presentToWindow()
         alert?.delegate = self
     }

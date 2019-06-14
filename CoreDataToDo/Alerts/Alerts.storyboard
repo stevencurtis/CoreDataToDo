@@ -112,6 +112,7 @@
                         <outlet property="buttonStackView" destination="gVC-fo-oom" id="bQL-eH-VZW"/>
                         <outlet property="buttonView" destination="23e-RK-TKf" id="6SZ-Fz-sNq"/>
                         <outlet property="inputTextView" destination="374-hb-wdc" id="eME-YZ-MB7"/>
+                        <outlet property="titleLabel" destination="hnk-8m-2d8" id="CPI-Fh-t2T"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dNb-7q-Aml" userLabel="First Responder" sceneMemberID="firstResponder"/>
