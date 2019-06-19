@@ -164,7 +164,8 @@ try managedContext.fetch(fetchRequest)
 
 This is a reasonably simple, to remove a specific task it is possible to perform:
 ```swift
-objectContext.delete(task)```
+objectContext.delete(task)
+```
 
 **Rounding up**
 
